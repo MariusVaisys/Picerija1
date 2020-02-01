@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Picerija", "Picerija\Picerija.csproj", "{3C990E89-0A97-4D35-8C50-DF24ED403CCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C990E89-0A97-4D35-8C50-DF24ED403CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C990E89-0A97-4D35-8C50-DF24ED403CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C990E89-0A97-4D35-8C50-DF24ED403CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C990E89-0A97-4D35-8C50-DF24ED403CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCFEE980-17C2-4BE9-8238-8535B7BB0027}
+	EndGlobalSection
+EndGlobal

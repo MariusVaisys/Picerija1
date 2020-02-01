@@ -1,0 +1,21 @@
+﻿@model Pica
+
+<div class="col-sm-4 col-lg-4 col-md-4">
+    <div class="thumbnail">
+        <img src="@Model.ImageThumnailUrl" />
+        <div class="caption">
+            <h3 class="pull-right">@Model.Kaina.ToString("c")</h3>
+            <h3><a asp-controller="Pica" asp-action="Detaliai" asp-route-id="@Model.PicaId">@Model.Pavadinimas</a></h3>
+            <p>@Model.Sudetis</p>
+        </div>
+        <div class="">
+            <p class="button">
+                <a class="btn btn-primary" 
+                   asp-controller="Shoppingcart"
+                   asp-action="AddToShoppingCart"
+                   asp-route-picaId="@Model.PicaId">Prideti i krepseli</a>
+            </p>
+        </div>
+    </div>
+</div>
+

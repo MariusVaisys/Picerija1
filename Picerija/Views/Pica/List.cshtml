@@ -1,0 +1,12 @@
+﻿@model PicaListViewModel
+
+
+
+    <h1>@Model.PasirinktaRusis</h1>
+    @foreach (var pica in Model.Picos)
+    {
+       <partial name="_PicaLentele" model="pica" />
+  
+    }
+
+

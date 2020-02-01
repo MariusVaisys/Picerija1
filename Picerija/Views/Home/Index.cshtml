@@ -1,0 +1,10 @@
+﻿@model HomeViewModel
+
+<h2>Picos su akcija</h2>
+
+<div class="row">
+    @foreach (var pica in Model.Akcija)
+    {
+        <partial name="_PicaLentele" model="pica" />
+    }
+</div>
